@@ -1,5 +1,4 @@
 {
-howtocurl=" curl -s file:///home/nikolajboiko/animations/installtest.sh | bash "
 
 DIR=".cool/source/alhambra"
 
@@ -17,7 +16,7 @@ fi
 
 
 
-cd $DIR && curl  -O  "file:///home/nikolajboiko/animations/alhambra.sh" 
+cd $DIR && curl  -O  "https://raw.githubusercontent.com/niboko/alhambra/main/alhambra.sh" 
 echo "file downloaded"
 
 cd
